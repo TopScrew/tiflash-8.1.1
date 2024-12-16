@@ -1,0 +1,94 @@
+# Mac OS
+.DS_Store
+
+# emacs files
+*~
+*\#
+.tramp_history
+
+# Netbeans project files
+nbproject/*
+
+# JetBrains project files
+.idea
+
+# Microsoft Visual Studio Code
+.vscode
+# vscode clangd cache
+.cache
+
+# ignore sublime project files
+*.sublime-*
+
+# CCACHE
+ccache.tar
+.ccache/
+
+# JSON Compilation Database Format Specification
+# https://clang.llvm.org/docs/JSONCompilationDatabase.html
+compile_commands.json
+
+# git patch reject report
+*.rej
+
+# vim cache files
+*.swp
+
+# callgrind files
+callgrind.out.*
+
+# ignore perf output
+*/perf.data
+
+# ignore build files
+CMakeCache.txt
+CMakeFiles
+Makefile
+cmake_install.cmake
+CTestTestfile.cmake
+*.a
+*.o
+cmake-build-*
+/build
+/build-debug
+/build-release
+
+# Python cache
+*.pyc
+__pycache__
+
+core
+!core/
+vgcore*
+
+*.deb
+*.build
+*.upload
+*.changes
+build-stamp
+configure-stamp
+debian/*.debhelper.log
+debian/*.debhelper
+debian/*.substvars
+
+# Protobuf
+*.pb.cc
+*.pb.cpp
+*.pb.h
+
+# TiFlash built and test files
+release-centos7/tiflash
+release-centos7/build-release
+release-darwin/tiflash
+release-darwin/build-release
+
+tmp/
+tests/fullstack-test2/auto_gen
+tests/docker/data
+tests/docker/log
+
+CoverageReport
+
+# installation and sysroot path
+release-centos7-llvm/tiflash
+release-centos7-llvm/build-release
